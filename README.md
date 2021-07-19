@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# Python Tutorial
 
-You can use the [editor on GitHub](https://github.com/swsvv/swsvv.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Lecture 1
+1. Program ([slide](https://swsvv.github.io/slide/00_intro.pdf))
+2. Tutorial plan
+3. Text editor installation
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Assignment 1 (2021-07-23까지)
 
-### Markdown
+1. Github 가입 및 repository(저장소) 만들기
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+   * [참고](https://swsvv.github.io/slide/git.pdf) 슬라이드 따라서 작성
 
-```markdown
-Syntax highlighted code block
+   
 
-# Header 1
-## Header 2
-### Header 3
+2. 데이터셋 만들기(또는 구하기)
 
-- Bulleted
-- List
+   * Tae Kim - 자동화하고싶은 데이터
+   * Arm - 가사
 
-1. Numbered
-2. List
+   
 
-**Bold** and _Italic_ and `Code` text
+3. 데이터셋 github repository에 올리기
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/swsvv/swsvv.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
