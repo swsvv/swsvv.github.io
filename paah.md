@@ -1,12 +1,26 @@
 # Python as a Hobby👾
 
-과제1 (2021-07-23까지)
+### 과제1 (2021-07-23까지)
 
-* Github 가입 및 repository(저장소) 만들기
-* 데이터셋 만들기(또는 구하기)
-* 데이터셋 github repository에 올리기
+1. Github 가입 및 repository(저장소) 만들기
 
-* [참고](https://swsvv.github.io/git.pdf)
+   * 참고 슬라이드 따라서 작성
+
+   
+
+2. 데이터셋 만들기(또는 구하기)
+
+   * arm - 가사
+
+   * tk - 자동화하고싶은 데이터
+
+   
+
+3. 데이터셋 github repository에 올리기
+
+
+
+[참고](https://swsvv.github.io/git.pdf)
 
 
 
