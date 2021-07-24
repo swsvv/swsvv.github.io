@@ -1,9 +1,3 @@
-interpretation mode
-
-0부터 시작
-
-
-
 # Data
 
 ### 자료(데이터, data)
