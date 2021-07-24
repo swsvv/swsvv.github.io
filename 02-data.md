@@ -224,6 +224,53 @@ messy = "20210724한남"
 
 ### 리스트
 
+* 데이터들의 한데 모아 사용할 수 있는 자료형태
+
+```
+리스트이름 = [데이터1, 데이터2, 데이터3, ... ]
+```
+
+
+
+### 리스트의 생김새
+
+```
+empty_list = []
+num = [1, 2, 3]
+words = ['nike', 'shoes', 'on', 'my', 'feet']
+mixed = [1, 2, 3, 'nike', 'shoes']
+list_in_list = [1, 2, ['리스트', '안에', '리스트']]
+empty_list_init = list()
+```
+
+
+
+### 리스트 인덱싱
+
+```
+list_index = [1, 2, 3]
+list_index[0]
+list_index[1]
+list_index[2]
+list_index[0] + list_index[1]
+list_index[-1]
+
+list_index = [1, 2, 3, ['nike', 'shoes', 'on']]
+list_index[0]
+list_index[3]
+list_index[-1]
+list_index[3][0]
+list_index[3][1]
+list_index[3][2]
+list_index[-1][2]
+
+list_index = [1, 2, 3, ['nike', 'shoes', ['on', 'my', 'feet']]]
+```
+
+
+
+
+
 
 
 ### 튜플
@@ -234,67 +281,15 @@ messy = "20210724한남"
 
 
 
-### 집합
-
-
-
 ### 불
-
-
 
 
 
 ### 자료를 담는 공간 = 변수
 
-
-
-
-
 어떤 자료에 어떤 자료형이 좋을까? 왜?
 
-
-
 변수
-
-
-
-if
-
-while
-
-for
-
-이 상황에서는 어떤 반복문이 좋을까?
-
-
-
-
-
-함수
-
-입출력
-
-
-
-전처리
-
-어떻게 전처리 할까?
-
-직접 손으로 모든 과정을 적어보자
-
-사용하는 자료는 무엇인가?
-
-어떠한 판단이 필요한가?
-
-반복되는 부분은 어디인가?
-
-
-
-
-
-
-
-클래스
 
 
 
