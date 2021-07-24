@@ -1,4 +1,11 @@
+# ⛰
+
+**나의 취미는 프로그래밍입니다** 
+
+
+
 ## 📚설명
+
 1. [프로그램?](https://swsvv.github.io/01-program.md)
 2. [데이터](https://swsvv.github.io/02-data.md)
 3. 조건문
