@@ -119,3 +119,9 @@ house_price_in_aud = house_price_in_usd * usd_to_aud_conversion_rate
 "the-quick-brown-fox-jumps-over-the-lazy-dog"
 ```
 
+
+
+### 자료를 담는 공간 = 변수
+
+* 어떤 자료에 어떤 자료형이 좋을까? 왜?
+
