@@ -1,6 +1,6 @@
 ## ⛰취미는 프로그래밍
 
-* love python
+* python을 배워봅시다
 
 
 
@@ -19,4 +19,10 @@
 ## 🔥과제
 1. [dataset, git](https://swsvv.github.io/assignment/01-assignment)
 2. [문자열연습](https://swsvv.github.io/assignment/02-assignment)
+
+
+
+## 👩‍🏫Reference
+
+* [점프 투 파이썬 ](https://wikidocs.net/book/1)을 기반으로 함
 
