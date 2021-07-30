@@ -1,4 +1,4 @@
-## ⛰취미는 프로그래밍
+## Python as a Hobby👾
 
 * python을 배워봅시다
 
