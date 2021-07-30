@@ -263,15 +263,305 @@ list_index = [1, 2, 3, ['nike', 'shoes', ['on', 'my', 'feet']]]
 
 
 
+### 리스트 슬라이싱
 
+* 리스트의 내용물을 잘라서 사용할 수 있음
+
+```
+slicing_test = [1, 2, 3, 4, 5]
+slicing_test[0:2]
+
+slicing_test = "Naive Set Theory"
+slicing_test[0:2]
+
+slicing_test = [1, 2, 3, 4, 5]
+slicing_result = slicing_test[:2]
+slicing_result = slicing_test[2:]
+```
+
+
+
+### 리스트 연산
+
+* 연산 ( +, * ) 가능
+
+```
+list_op1 = [1, 2, 3]
+list_op2 = [4, 5, 6]
+
+list_op1 + list_op2
+list_op1 * 3
+```
+
+
+
+### 리스트 길이구하기
+
+* len(리스트) 로 리스트의 길이를 구할 수 있음
+* 리스트길이 외에도 다른 자료형 데이터의 길이를 구할 때 사용할 수 있음
+
+```
+list_length = [1, 2, 3, 4, 5]
+len(list_length)
+```
+
+
+
+### 리스트의 수정과 삭제
+
+* 리스트 인덱스로 리스트 원소에 직접 접근하여 수정하거나 삭제할 수 있음
+
+```
+list_modify = [1, 2, 3]
+list_modify[2] = 7
+list_modify
+
+del list_modify[1]
+list_modify
+```
+
+
+
+### 리스트 관련 함수들
+
+* 리스트 이름 뒤에 . 을 붙여서 리스트를 수정하거나 변형하는 함수 사용가능
+* 리스트에 원소 추가 (append)
+  * 리스트의 맨 마지막에 새로운 원소를 추가
+
+```
+list_practice = [1, 2, 3]
+list_practice.append(4)
+list_practice
+
+list_practice.append([5, 6])
+list_practice
+```
+
+
+
+* 리스트 정렬(sort)
+  * 리스트의 원소들을 순서대로 정렬함
+
+```
+list_practice = [1, 9, 8, 3, 2, 5, 4, 7, 6]
+list_practice.sort()
+list_practice
+
+list_practice = ['z', 'f', 'a', 'b', 'd', 'e']
+list_practice.sort()
+list_practice
+```
+
+
+
+* 리스트 뒤집기(reverse)
+  * 리스트의 원소를 역순으로 배열함 (정렬은 하지 않음)
+
+```
+list_practice = ['b', 'c', 'z']
+list_practice.reverse()
+list_practice
+```
+
+
+
+* 위치 반환(index)
+
+```
+list_practice = ['apple', 'banana', 'cereal']
+list_practice.index('cereal')
+list_practice
+```
+
+
+
+* 리스트에 원소 삽입(insert)
+  * 원하는 위치에 데이터를 삽입
+  * insert(a, b) 
+  * a 번째 위치에 b를 삽입 (주의. 인덱스는 0부터 시작함)
+
+```
+list_practice = [1, 2, 3]
+list_practice.insert(0, 4)
+list_practice
+
+list_practice.insert(3, 5)
+list_practice
+```
+
+
+
+* 리스트 원소 제거(remove)
+  * 원하는 위치의 데이터를 제거
+  * remove(인덱스 번호)
+  * 해당 인덱스 번호의 원소를 제거
+
+```
+list_practice = [1, 2, 3, 4, 5]
+list_practice.remove(3)
+list_practice
+
+list_practice = ['apple', 'banana', 'cereal']
+list_practice.remove(1)
+list_practice
+```
+
+
+
+* 리스트 원소 꺼내기(pop)
+  * 리스트의 맨 마지막 원소를 꺼내고 리스트 안에서 그 원소는 삭제함
+
+```
+list_practice = [1, 2, 3]
+list_practice.pop()
+list_practice
+
+pop_result = list_practice.pop()
+list_practice
+pop_result
+```
+
+
+
+* 리스트에 포함된 특정 원소의 개수 세기(count)
+  * 리스트 안에 해당 원소가 몇 개 있는지 알려줌
+
+```
+list_practice = ['apple', 'banana', 'milk', 'cereal', 'orange', 'apple']
+list_practice.count('apple')
+list_practice = [1, 2, 3, 2, 1]
+list_practice.count(1)
+list_practice.count(2)
+list_practice.count(3)
+list_practice.count(4)
+```
+
+
+
+* 리스트 확장(extend)
+  * 리스트에 리스트를 추가함
+
+```
+list_practice = [1, 2, 3]
+list_practice.extend([4, 5])
+list_practice
+
+list_practice.extend([6, 7, 8, 9])
+list_practices
+
+list_practice = list_practice + [10, 11]
+list_practice
+```
 
 
 
 ### 튜플
 
+* 리스트와 거의 비슷
+* ( )로 표현
+  * tuple_practice = (1, 2, 3)
+  * tuple_practice = ('a', 'b', ('abc', 'def'))
+* 리스트와의 차이
+  * 리스트는 원소의 값을 바꿀 수 있음
+  * 튜플은 원소값을 바꿀 수 없음
+  * 프로그램 중간에 값을 바꾸지 않아야할 경우가 있다면 튜플을 써도 되나 리스트를 더 많이 씀 (프로그램 실행 중에 변화되는 경우가 훨씬 많기 때문)
+
 
 
 ### 딕셔너리
+
+* 말그대로 사전과 같은 형태
+* 단어 : 뜻 설명
+* key를 보고 key가 나타내는 value를 사용할 수 있음
+
+| 단어 | 뜻                                                           |
+| ---- | ------------------------------------------------------------ |
+| 야곱 | 이삭과 리브가의 아들로 쌍둥이 형 에서의 발 뒤꿈치를 잡고 태어났다. |
+| 바울 | 예수님의 인격과 사역의 의미를 해석하는 데 있어서 가장 큰 공헌을 한 신약 시대의 인물이다. |
+| 하늘 | 지평선이나 수평선 위로 보이는 무한대의 넓은 공간             |
+
+
+
+### 딕셔너리 예시
+
+* 앎사전 = { 성별 : 여, 국적 : 한국,  취미 : 파이썬}
+* 태킴사전 = { 이름 : itk, 전번 : 01012345678, 직업 : 데이터과학자 }
+
+```
+itk_dic = {'name' : 'itk', 'phone' : 01012345678, 'job' : 'data_scientist'}
+```
+
+| key   | value          |
+| ----- | -------------- |
+| name  | itk            |
+| phone | 01012345678    |
+| job   | data_scientist |
+
+
+
+### 딕셔너리를 만드는 방법
+
+* key : value
+  * {key1:value1, key2:value2, key3:value3, ...}
+  * 키(key) 이름으로 숫자, 문자열 사용 가능
+
+```
+딕셔너리이름 = {키1 : 값, 키2 : 값, 키3 : 값, ....}
+```
+
+
+
+### 딕셔너리 쌍 추가, 삭제
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 딕셔너리는 왜 만들까?
+
+* 딕셔너리
+  * 여러 데이터로 구성된 하나의 데이터집합
+* 데이터집합을 특징별로 묶을 때 편리함
+  * 변수 => 하나의 데이터만 가지고 있음
+  * 리스트 => 인덱스 번호로 데이터(원소)를 분류
+  * 딕셔너리 => 키(key)로 데이터를 분류할 수 있음 (key로 데이터의 특징을 나타낼 수 있음)
+
+
+
+```
+순원1 = {
+            이름 : 김민주, 
+            성별 : 여, 
+            번호 : 01012345678,
+            전공 : 컴퓨터공학,
+            생일 : 2001-02-05
+		}
+순원2 = {
+            이름 : 정수정, 
+            성별 : 여, 
+            번호 : 010910111213,
+            전공 : 수학,
+            생일 : 1994-10-24
+		}
+```
+
+
 
 
 
@@ -294,3 +584,4 @@ list_index = [1, 2, 3, ['nike', 'shoes', ['on', 'my', 'feet']]]
 ### References
 
 [^escape]: https://wikidocs.net/13
+
