@@ -798,13 +798,7 @@ dataset[2]['title']
 | ---- | ------ | -------- | --------------- |
 | 1    | 하성운 | 스니커즈 | eh oh yeah yeah |
 
-
-
-| Region        | Exchange                | Index | Currency |
-| ------------- | ----------------------- | ----- | -------- |
-| United States | New York Stock Exchange | NYA   | USD      |
-
-
+  
 
 * 만든 딕셔너리의 모든 key 를 출력해보자
 * 모든 value를 출력해보자
@@ -813,11 +807,17 @@ dataset[2]['title']
 * Currency key의 value를 출력해보자
 * 각 딕셔너리에 'comment' key가 있는지 확인해보자
 
+  
 
+2. 아래 표를 딕셔너리로 만들어보자 
 
-2. 아래 표를 딕셔너리로 만들어보자 (hint. 리스트를 활용)
+| Region        | Exchange                | Index | Currency |
+| ------------- | ----------------------- | ----- | -------- |
+| United States | New York Stock Exchange | NYA   | USD      |
+| Europe        | Euronext                | N100  | EUR      |
+| Korea         | Korea Exchange          | KS11  | KRW      |
 
-
+  
 
 
 
