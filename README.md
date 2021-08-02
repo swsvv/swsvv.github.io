@@ -8,7 +8,7 @@
 
 1. [프로그램?](https://swsvv.github.io/01-program)
 2. [데이터](https://swsvv.github.io/02-data)
-3. [변수](https://swsvv.github.io/03-variable.md)
+3. [변수](https://swsvv.github.io/03-variable)
 4. 조건문
 5. 반복문
 6. 함수
