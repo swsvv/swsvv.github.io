@@ -42,7 +42,3 @@ nas_i_know_i_can = ['I', 'know', 'I', 'can', 'Be', 'what', 'I', 'wanna', 'be', '
 
 <br>
 
-* 'You'를 다시 'I'로 바꿔보는데 replace라는 함수를 써서 바꿔보자 (replace는 배우지 않았지만 검색을 통해 시도해보자)
-
-<br>
-
