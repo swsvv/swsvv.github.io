@@ -407,8 +407,8 @@ list_practice
 
 * 리스트 원소 제거(remove)
   * 원하는 위치의 데이터를 제거
-  * remove(인덱스 번호)
-  * 해당 인덱스 번호의 원소를 제거
+  * remove(value)
+  * 해당 값을 리스트에서 제거
 
 ```
 list_practice = [1, 2, 3, 4, 5]
@@ -416,7 +416,7 @@ list_practice.remove(3)
 list_practice
 
 list_practice = ['apple', 'banana', 'cereal']
-list_practice.remove(1)
+list_practice.remove('apple')
 list_practice
 ```
 
@@ -547,12 +547,6 @@ lyric = ['그', '언제나', '상상했던', '\n', '숲으로', '날', '데려�
   * 리스트는 원소의 값을 바꿀 수 있음
   * 튜플은 원소값을 바꿀 수 없음
   * 프로그램 중간에 값을 바꾸지 않아야할 경우가 있다면 튜플을 써도 되나 리스트를 더 많이 씀 (프로그램 실행 중에 변화되는 경우가 훨씬 많기 때문)
-
-
-
-# replace!!
-
-
 
 
 
