@@ -21,8 +21,8 @@
 1. [dataset, git](https://swsvv.github.io/assignment/01-assignment)
 2. [문자열연습](https://swsvv.github.io/assignment/02-assignment)
 3. [리스트연습](https://swsvv.github.io/assignment/03-assignment)
-4. 딕셔너리연습
-5. 조건문연습
+4. [딕셔너리연습](https://swsvv.github.io/assignment/04-assignment)
+5. [조건문연습](https://swsvv.github.io/assignment/04-assignment)
 
 
 
