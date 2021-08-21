@@ -10,7 +10,7 @@
 2. [데이터](https://swsvv.github.io/02-data)
 3. [변수](https://swsvv.github.io/03-variable)
 4. [조건문](https://swsvv.github.io/slide/03-condition.pdf)
-5. 반복문
+5. [반복문](https://swsvv.github.io/slide/04-loop.pdf)
 6. 함수
 7. 클래스
 
@@ -23,6 +23,7 @@
 3. [리스트연습](https://swsvv.github.io/assignment/03-assignment)
 4. [딕셔너리연습](https://swsvv.github.io/assignment/04-assignment)
 5. [조건문연습](https://swsvv.github.io/assignment/04-assignment)
+6. [반복문연습](https://swsvv.github.io/assignment/05-assignment)
 
 
 
