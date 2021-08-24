@@ -23,7 +23,7 @@
 3. [리스트연습](https://swsvv.github.io/assignment/03-assignment)
 4. [딕셔너리연습](https://swsvv.github.io/assignment/04-assignment)
 5. [조건문연습](https://swsvv.github.io/assignment/04-assignment)
-6. [반복문연습](https://swsvv.github.io/assignment/05-assignment.ipynb)
+6. [반복문연습](https://swsvv.github.io/assignment/05-assignment)
 
 
 
